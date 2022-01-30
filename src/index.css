@@ -1,13 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,700&family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+
+  /* screen size */
+  --mobile: 375px;
+  --Desktop: 1440px;
+
+  /* colors */
+
+  /* Primary */
+  --softRed: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --graphicDesignText: hsl(167, 40%, 24%);
+  --photographyText: hsl(198, 62%, 26%);
+  --footer: hsl(168, 34%, 41%);
+
+    /* Neutral */
+
+    --veryDarkBlue: hsl(212,27%,19%);
+    --veryDarkGray: hsl(213, 9%, 39%);
+    --darkGrayishBlue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+
+    /* fonts and sizes */
+
+    /* Body */
+    --fontSize: 18px
+
+    /* fonts */
+    --barlow: 'Barlow', sans-serif;
+    --barlowWeight: 600;
+    --fraunces: 'Fraunces', serif;
+    --frauncesBig: 900;
+    --frauncesSmall: 700;
+}
+
+
+a{
+  text-align: center;
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+  font-size: 11px;
 }
