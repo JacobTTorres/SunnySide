@@ -1,0 +1,53 @@
+.navbarContainer {
+  padding: 30px;
+}
+
+.navbarContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+}
+
+.navTitle {
+  font-family: var(--barlow);
+  font-weight: var(--barlowWeight);
+  font-size: 34px;
+  margin: 0;
+}
+
+.navLinks{
+  width: 40%
+}
+
+.pageLinks{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 60px;
+}
+
+.About,.Services,.Projects,.Contact{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-radius: 25vw;
+}
+
+.links{
+  font-weight: 400;
+}
+
+.Contact{
+  background-color: var(--white)
+}
+
+.contactLink{
+  font-family: var(--fraunces);
+  font-weight: var(--frauncesSmall);
+  color:rgba(0, 0, 0, 1);
+}

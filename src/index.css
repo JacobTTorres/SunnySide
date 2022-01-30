@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,700&family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,700&family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap");
 
 body {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 :root {
-
   /* screen size */
   --mobile: 375px;
-  --Desktop: 1440px;
+  --desktop: 1440px;
 
   /* colors */
 
@@ -20,30 +22,35 @@ body {
   --photographyText: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
 
-    /* Neutral */
+  /* Neutral */
 
-    --veryDarkBlue: hsl(212,27%,19%);
-    --veryDarkGray: hsl(213, 9%, 39%);
-    --darkGrayishBlue: hsl(210, 4%, 67%);
-    --white: hsl(0, 0%, 100%);
+  --veryDarkBlue: hsl(212, 27%, 19%);
+  --veryDarkGray: hsl(213, 9%, 39%);
+  --darkGrayishBlue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
 
-    /* fonts and sizes */
+  /* fonts and sizes */
 
-    /* Body */
-    --fontSize: 18px
+  /* Body */
+  --fontSize: 18px;
 
-    /* fonts */
-    --barlow: 'Barlow', sans-serif;
-    --barlowWeight: 600;
-    --fraunces: 'Fraunces', serif;
-    --frauncesBig: 900;
-    --frauncesSmall: 700;
+  /* fonts */
+  --barlow: "Barlow", sans-serif;
+  --barlowWeight: 600;
+  --fraunces: "Fraunces", serif;
+  --frauncesBig: 900;
+  --frauncesSmall: 700;
 }
 
-
-a{
-  text-align: center;
+a {
   text-decoration: none;
-  color: hsl(228, 45%, 44%);
-  font-size: 11px;
+}
+a:hover{
+   cursor: pointer; 
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

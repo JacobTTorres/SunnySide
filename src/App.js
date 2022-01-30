@@ -1,9 +1,14 @@
 import './App.css';
 
+import Navbar from "./components/navbar/Navbar"
+
 function App() {
   return (
     <div className="App">
-    sunnyside landing page
+    <div className="navAndHeaderContainer">
+    <Navbar />
+    </div>
+
     </div>
   );
 }
