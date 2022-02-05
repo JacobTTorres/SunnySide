@@ -1,9 +1,23 @@
-.App{
-  width: var(--desktop)
+.App {
+  width: var(--desktop);
 }
 
-.navAndHeaderContainer{
+.navAndHeaderContainer {
   background-image: url("./images/desktop/image-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.designPhotography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }

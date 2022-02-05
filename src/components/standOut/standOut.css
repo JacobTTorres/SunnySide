@@ -1,0 +1,46 @@
+.standOutContainer {
+  width: 100%;
+  height: 600px;
+}
+
+.standOutContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.standOutHeader {
+  font-size: 40px;
+  font-family: var(--fraunces);
+  font-weight: var(--frauncesBig);
+}
+
+.standOutInfo {
+  width: 50%;
+  padding: 155px;
+}
+
+.standOutParagraph {
+  font-family: var(--barlow);
+  font-weight: 600;
+  color: var(--veryDarkGray);
+  line-height: 1.7em;
+  margin-bottom: 28px;
+}
+
+.standOutLearnMoreLink {
+  width: 130px;
+  background-image: linear-gradient(
+    var(--white) 65%,
+    var(--softRed-highlight) 35%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.standOutLearnMore {
+  font-family: var(--fraunces);
+}

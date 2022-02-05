@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,700&family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,300;0,400;0,600;0,700;1,700&family=Fraunces:ital,wght@0,700;0,900;1,700;1,900&display=swap");
 
 body {
   margin: 0;
@@ -17,7 +17,9 @@ body {
 
   /* Primary */
   --softRed: hsl(7, 99%, 70%);
+  --softRed-highlight: #f9dbd3;
   --yellow: hsl(51, 100%, 49%);
+  --yellow-highlight: #fcf5cb;
   --graphicDesignText: hsl(167, 40%, 24%);
   --photographyText: hsl(198, 62%, 26%);
   --footer: hsl(168, 34%, 41%);
@@ -45,8 +47,8 @@ body {
 a {
   text-decoration: none;
 }
-a:hover{
-   cursor: pointer; 
+a:hover {
+  cursor: pointer;
 }
 
 ul {

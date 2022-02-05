@@ -1,0 +1,47 @@
+.transfromContainer {
+  width: 100%;
+  height: 600px;
+}
+
+.transfromContent {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.transfromHeader {
+  font-size: 40px;
+  font-family: var(--fraunces);
+  font-weight: var(--frauncesBig);
+}
+
+.transformInfo {
+  width: 50%;
+  padding: 155px;
+}
+
+.transformParagraph {
+  font-family: var(--barlow);
+  font-weight: 600;
+  color: var(--veryDarkGray);
+  line-height: 1.7em;
+  margin-bottom: 28px;
+}
+
+.transformLearnMoreLink {
+  width: 130px;
+  background-image: linear-gradient(
+    var(--white) 65%,
+    var(--yellow-highlight) 35%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transformLearnMore {
+  font-family: var(--fraunces);
+}

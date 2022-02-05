@@ -1,0 +1,35 @@
+.graphicDesignContainer {
+  width: 720px;
+  height: 600px;
+}
+
+.graphicDesignContent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../images/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+}
+
+.graphicDesignHeader {
+  font-size: 30px;
+  font-family: var(--fraunces);
+  font-weight: var(--frauncesBig);
+  color: var(--graphicDesignText);
+  margin: 15px;
+}
+
+.graphicDesignInfo {
+  width: 50%;
+  font-family: var(--barlow);
+  font-weight: 600;
+  color: var(--veryDarkGray);
+  line-height: 1.7em;
+  margin-bottom: 28px;
+  text-align: center;
+  color: var(--graphicDesignText);
+}

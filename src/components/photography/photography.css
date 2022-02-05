@@ -1,0 +1,35 @@
+.photographyContainer {
+  width: 720px;
+  height: 600px;
+}
+
+.photographyContent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../images/desktop/image-photography.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+}
+
+.photographyHeader {
+  font-size: 30px;
+  font-family: var(--fraunces);
+  font-weight: var(--frauncesBig);
+  color: var(--photographyText);
+  margin: 15px;
+}
+
+.photographyInfo {
+  width: 50%;
+  font-family: var(--barlow);
+  font-weight: 600;
+  color: var(--veryDarkGray);
+  line-height: 1.7em;
+  margin-bottom: 28px;
+  text-align: center;
+  color: var(--photographyText);
+}
