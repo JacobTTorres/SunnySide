@@ -1,26 +1,38 @@
-.transfromContainer {
+.transformContainer {
   width: 100%;
   height: 600px;
 }
 
-.transfromContent {
-  width: 100%;
-
+.transformContent {
+  width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-.transfromHeader {
+@media only screen and (max-width: 1440px) {
+  .transformContainer {
+    width: 90%;
+    height: 100%
+  }
+}
+
+.transformHeader {
   font-size: 40px;
   font-family: var(--fraunces);
   font-weight: var(--frauncesBig);
 }
 
 .transformInfo {
-  width: 50%;
-  padding: 155px;
+  width: 58%;
+  padding: 150px 155px 150px 155px;
+}
+@media only screen and (max-width: 1440px) {
+  .transformInfo {
+    width:50%;
+    padding: 9vw;
+  }
 }
 
 .transformParagraph {
@@ -31,7 +43,7 @@
   margin-bottom: 28px;
 }
 
-.transfromLinkBackdrop {
+.transformLinkBackdrop {
   background-color: var(--yellow-highlight);
   position: absolute;
   width: 130px;
@@ -40,7 +52,7 @@
   margin-top: 16px;
 }
 
-.transfromLinkBackdrop:hover {
+.transformLinkBackdrop:hover {
   background-color: var(--yellow);
   cursor: pointer;
 }
@@ -55,4 +67,20 @@
 .transformLearnMore {
   font-family: var(--fraunces);
   position: absolute;
+}
+
+.transformBackground{
+  height: 100%;
+  width: 100%;
+}
+
+.transformBackgroundImg {
+  height: 600px;
+  width: 720px;
+}
+@media only screen and (max-width: 1440px) {
+  .transformBackgroundImg {
+    height: 100%;
+    width: 100%;
+  }
 }

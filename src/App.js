@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 
-import Transfrom from "./components/transform/Transfrom";
+import Transform from "./components/transform/Transform";
 import StandOut from "./components/standOut/StandOut";
 import GraphicDesign from "./components/graphicDesign/GraphicDesign";
 import Photography from "./components/photography/Photography";
@@ -19,7 +19,7 @@ function App() {
         <Header />
       </div>
       <div className="mainContent">
-        <Transfrom />
+        <Transform />
         <StandOut />
         <div className="designPhotography">
           <GraphicDesign />
