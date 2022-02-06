@@ -7,6 +7,8 @@ import Transfrom from "./components/transform/Transfrom";
 import StandOut from "./components/standOut/StandOut";
 import GraphicDesign from "./components/graphicDesign/GraphicDesign";
 import Photography from "./components/photography/Photography";
+import Client from "./components/client/Client";
+import Photos from "./components/photos/Photos"
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <GraphicDesign />
           <Photography />
         </div>
+        <Client />
+        <Photos />
       </div>
     </div>
   );
