@@ -8,7 +8,8 @@ import StandOut from "./components/standOut/StandOut";
 import GraphicDesign from "./components/graphicDesign/GraphicDesign";
 import Photography from "./components/photography/Photography";
 import Client from "./components/client/Client";
-import Photos from "./components/photos/Photos"
+import Photos from "./components/photos/Photos";
+import Footer from "./components/footer/Footer"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </div>
         <Client />
         <Photos />
+        <Footer />
       </div>
     </div>
   );

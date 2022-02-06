@@ -12,13 +12,13 @@
 
 .navTitle {
   font-family: var(--barlow);
-  font-weight: var(--barlowWeight);
+  font-weight: 900;
   font-size: 34px;
   margin: 0;
 }
 
 .navLinks {
-  width: 40%;
+  width: 38%;
 }
 
 .pageLinks {
@@ -27,13 +27,14 @@
   align-items: center;
   flex-direction: row;
   height: 60px;
+
 }
 
 .About,
 .Services,
 .Projects,
 .Contact {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,18 +43,21 @@
 }
 
 .links {
-  font-weight: 400;
+  font-weight: 600;
+  font-family: var(--barlow);
+  font-size: 17px
+
 }
 
 .Contact {
   background-color: var(--white);
-  color: #000
+  color: #000;
 }
 
-.Contact:hover{
+.Contact:hover {
   background-color: #6ecfff;
   cursor: pointer;
-  color: var(--white)
+  color: var(--white);
 }
 
 .contactLink {
