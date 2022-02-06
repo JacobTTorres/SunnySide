@@ -47,10 +47,16 @@
 
 .Contact {
   background-color: var(--white);
+  color: #000
+}
+
+.Contact:hover{
+  background-color: #6ecfff;
+  cursor: pointer;
+  color: var(--white)
 }
 
 .contactLink {
   font-family: var(--fraunces);
   font-weight: var(--frauncesSmall);
-  color: rgba(0, 0, 0, 1);
 }
