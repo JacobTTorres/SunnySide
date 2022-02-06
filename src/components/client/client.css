@@ -1,0 +1,62 @@
+.clientContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 150px 0px 150px 0px;
+}
+
+.clientHeader {
+  color: var(--darkGrayishBlue);
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 80%;
+}
+
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.clientPhoto {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  margin-bottom: 40px;
+}
+
+.clientTestimony {
+  width: 95%;
+  text-align: center;
+  font-family: var(--barlow);
+  font-weight: bold;
+  line-height: 1.75em;
+  font-size: 17px;
+  color: var(--veryDarkGray);
+  margin-bottom: 70px
+}
+
+.clientName {
+  font-family: var(--fraunces);
+  font-weight: var(--frauncesBig);
+  margin-top: 0;
+  margin-bottom: 17px
+}
+
+.clientOccupation {
+  color: var(--darkGrayishBlue);
+  margin: 0;
+  font-size: 12px
+}
