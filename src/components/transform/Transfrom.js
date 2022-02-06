@@ -14,6 +14,7 @@ export default function Transfrom() {
             most of the marketing for you.
           </p>
           <div className="transformLearnMoreLink">
+            <div className="transfromLinkBackdrop"></div>
             <a className="transformLearnMore">LEARN MORE</a>
           </div>
         </div>

@@ -31,12 +31,22 @@
   margin-bottom: 28px;
 }
 
+.transfromLinkBackdrop {
+  background-color: var(--yellow-highlight);
+  position: absolute;
+  width: 130px;
+  height: 10px;
+  border-radius: 25vw;
+  margin-top: 16px;
+}
+
+.transfromLinkBackdrop:hover {
+  background-color: var(--yellow);
+  cursor: pointer;
+}
+
 .transformLearnMoreLink {
   width: 130px;
-  background-image: linear-gradient(
-    var(--white) 65%,
-    var(--yellow-highlight) 35%
-  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,4 +54,5 @@
 
 .transformLearnMore {
   font-family: var(--fraunces);
+  position: absolute;
 }

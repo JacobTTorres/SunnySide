@@ -30,12 +30,22 @@
   margin-bottom: 28px;
 }
 
+.standOutLinkBackdrop {
+  background-color: var(--softRed-highlight);
+  position: absolute;
+  height: 10px;
+  width: 130px;
+  border-radius: 25vw;
+  margin-top: 16px;
+}
+
+.standOutLinkBackdrop:hover {
+  background-color: var(--softRed);
+  cursor: pointer;
+}
+
 .standOutLearnMoreLink {
   width: 130px;
-  background-image: linear-gradient(
-    var(--white) 65%,
-    var(--softRed-highlight) 35%
-  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,4 +53,5 @@
 
 .standOutLearnMore {
   font-family: var(--fraunces);
+  position: absolute;
 }

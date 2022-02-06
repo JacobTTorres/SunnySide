@@ -17,6 +17,7 @@ export default function StandOut() {
             extend your brand in digital places.
           </p>
           <div className="standOutLearnMoreLink">
+            <div className="standOutLinkBackdrop"></div>
             <a className="standOutLearnMore">LEARN MORE</a>
           </div>
         </div>
