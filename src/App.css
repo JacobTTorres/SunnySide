@@ -2,9 +2,10 @@
   width: var(--desktop);
   background-color: #fffbf8;
 }
-@media only screen and (max-width:1440px) {
-  .App{
-    width: 100%
+
+@media only screen and (max-width: 1440px) {
+  .App {
+    width: 100%;
   }
 }
 
@@ -12,6 +13,9 @@
   background-image: url("./images/desktop/image-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+
 }
 
 .mainContent {
@@ -19,11 +23,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-shrink: 1;
+  width: 100%;
 }
+
 
 .designPhotography {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  width: 100%;
 }

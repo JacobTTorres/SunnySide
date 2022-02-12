@@ -13,9 +13,26 @@
 
 @media only screen and (max-width: 1440px) {
   .transformContainer {
-    width: 90%;
-    height: 100%
+    width: 100%;
+    height: 100%;
   }
+  .transformContent {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.transformInfo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 56.95%;
+  height: 100%;
 }
 
 .transformHeader {
@@ -24,14 +41,9 @@
   font-weight: var(--frauncesBig);
 }
 
-.transformInfo {
-  width: 58%;
-  padding: 150px 155px 150px 155px;
-}
 @media only screen and (max-width: 1440px) {
-  .transformInfo {
-    width:50%;
-    padding: 9vw;
+  .transformHeader{
+    font-size: 3vw
   }
 }
 
@@ -41,6 +53,12 @@
   color: var(--veryDarkGray);
   line-height: 1.7em;
   margin-bottom: 28px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .transformParagraph{
+    font-size: 1.5vw
+  }
 }
 
 .transformLinkBackdrop {
@@ -67,20 +85,21 @@
 .transformLearnMore {
   font-family: var(--fraunces);
   position: absolute;
-}
-
-.transformBackground{
-  height: 100%;
-  width: 100%;
+  font-size: 17px
 }
 
 .transformBackgroundImg {
   height: 600px;
   width: 720px;
 }
+
 @media only screen and (max-width: 1440px) {
-  .transformBackgroundImg {
+  .transformBackground {
+    width: 50%;
     height: 100%;
+  }
+  .transformBackgroundImg {
     width: 100%;
+    height: 100%;
   }
 }

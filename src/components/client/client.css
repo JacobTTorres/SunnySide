@@ -1,3 +1,7 @@
+.clientContainer{
+  width: 100%;
+}
+
 .clientContent {
   display: flex;
   justify-content: center;

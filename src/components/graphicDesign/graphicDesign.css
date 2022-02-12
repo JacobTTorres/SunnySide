@@ -2,6 +2,12 @@
   width: 720px;
   height: 600px;
 }
+@media only screen and (max-width: 1440px) {
+  .graphicDesignContainer {
+    width: 50%;
+    height: 100%;
+  }
+}
 
 .graphicDesignContent {
   display: flex;
@@ -10,6 +16,7 @@
   flex-direction: column;
   background-image: url("../../images/desktop/image-graphic-design.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;

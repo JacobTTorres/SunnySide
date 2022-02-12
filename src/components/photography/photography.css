@@ -3,6 +3,14 @@
   height: 600px;
 }
 
+@media only screen and (max-width: 1440px) {
+  .photographyContainer {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+
 .photographyContent {
   display: flex;
   justify-content: flex-end;
@@ -10,6 +18,7 @@
   flex-direction: column;
   background-image: url("../../images/desktop/image-photography.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 600px;
   width: 100%;

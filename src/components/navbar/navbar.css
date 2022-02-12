@@ -2,15 +2,6 @@
   padding: 30px;
 }
 
-@media only screen and (max-width: 1440px) {
-  .navbarContainer {
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
 
 .navbarContent {
   width: 100%;
@@ -19,11 +10,7 @@
   align-items: center;
   color: var(--white);
 }
-@media only screen and (max-width: 1440px) {
-  .navbarContent{
-    width: 80%
-  }
-}
+
 
 .navTitle {
   font-family: var(--barlow);
@@ -33,7 +20,7 @@
 }
 
 .navLinks {
-  width: 38%;
+  width: 525px;
 }
 
 .pageLinks {
@@ -43,7 +30,6 @@
   flex-direction: row;
   height: 60px;
 }
-
 .About,
 .Services,
 .Projects,
