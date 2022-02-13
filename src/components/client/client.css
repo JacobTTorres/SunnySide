@@ -1,4 +1,4 @@
-.clientContainer{
+.clientContainer {
   width: 100%;
 }
 
@@ -49,10 +49,10 @@
   line-height: 1.75em;
   font-size: 17px;
   color: var(--veryDarkGray);
-  margin-bottom: 70px
+  margin-bottom: 70px;
 }
 
-.clientInfo{
+.clientInfo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,36 +63,36 @@
   font-family: var(--fraunces);
   font-weight: var(--frauncesBig);
   margin-top: 0;
-  margin-bottom: 17px
+  margin-bottom: 17px;
 }
 
 .clientOccupation {
   color: var(--darkGrayishBlue);
   margin: 0;
-  font-size: 12px
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 700px) {
-  .clientContent{
+  .clientContent {
     padding: 50px 0px 40px 0px;
   }
-  .clientHeader{
-    font-size: 16px
+  .clientHeader {
+    font-size: 16px;
   }
-  .clients{
+  .clients {
     flex-direction: column;
-    width: 100%
+    width: 100%;
   }
-  .client{
-    padding: 25px
+  .client {
+    padding: 25px;
   }
-  .clientPhoto{
-    margin-bottom: 20px
+  .clientPhoto {
+    margin-bottom: 20px;
   }
-  .clientTestimony{
-    margin-bottom: 35px
+  .clientTestimony {
+    margin-bottom: 35px;
   }
-  .clientInfo{
-    margin-bottom: 40px
+  .clientInfo {
+    margin-bottom: 40px;
   }
 }

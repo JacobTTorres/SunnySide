@@ -12,7 +12,7 @@ export default function StandOut() {
             src={StandoutPhoto}
             alt="backgroundStandout"
             className="standOutBackgroundImg"
-          />{" "}
+          />
           <img
             src={StandoutPhotoMobile}
             alt="backgroundStandout"

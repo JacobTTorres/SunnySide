@@ -14,7 +14,7 @@
 .photoImg {
   width: 50%;
   height: 100%;
-  margin-bottom: -4px
+  margin-bottom: -4px;
 }
 .bottomRow,
 .topRow {
@@ -34,7 +34,8 @@
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .topRow,.bottomRow{
-    width: 100%
+  .topRow,
+  .bottomRow {
+    width: 100%;
   }
 }

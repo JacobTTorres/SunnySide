@@ -34,7 +34,7 @@
   color: var(--footer);
   font-family: var(--barlow);
   font-weight: var(--barlowWeight);
-  font-size: 17px
+  font-size: 17px;
 }
 .footerLinks:hover {
   color: var(--white);
