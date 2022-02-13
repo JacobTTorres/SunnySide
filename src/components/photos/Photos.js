@@ -9,10 +9,14 @@ export default function Photos() {
   return (
     <section className="photosContainer">
       <div className="photoContent">
-        <img src={Milk} alt="Milk" className="photoImg" />
-        <img src={Orange} alt="Orange" className="photoImg" />
-        <img src={Cone} alt="Cone" className="photoImg" />
-        <img src={Sugar} alt="Sugar" className="photoImg" />
+        <div className="topRow">
+          <img src={Milk} alt="Milk" className="photoImg" />
+          <img src={Orange} alt="Orange" className="photoImg" />
+        </div>
+        <div className="bottomRow">
+          <img src={Cone} alt="Cone" className="photoImg" />
+          <img src={Sugar} alt="Sugar" className="photoImg" />
+        </div>
       </div>
     </section>
   );

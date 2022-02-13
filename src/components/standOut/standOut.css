@@ -59,8 +59,8 @@
 .standOutLinkBackdrop {
   background-color: var(--softRed-highlight);
   position: absolute;
-  height: 10px;
   width: 130px;
+  height: 10px;
   border-radius: 25vw;
   margin-top: 16px;
 }
@@ -83,16 +83,6 @@
   font-size: 17px;
 }
 
-@media only screen and (max-width: 1440px) {
-  .standOutLinkBackdrop {
-    height: 0.85vw;
-    width: 14vw;
-    margin-top: 1.5vw;
-  }
-  .standOutLearnMore {
-    font-size: 1.75vw;
-  }
-}
 
 .standOutBackgroundimg {
   height: 600px;
@@ -107,5 +97,58 @@
   .standOutBackgroundImg {
     width: 100%;
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .standOutBackgroundImgMobile {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .standOutContent {
+    flex-direction: column;
+  }
+  .standOutBackground{
+    width: 100%;
+    height: 100%;
+  }
+  .standOutBackgroundImg {
+    display: none;
+  }
+  .standOutBackgroundImgMobile {
+    height: 100%;
+    width: 100%;
+  }
+  .standOutInfo {
+    width: 100%;
+    height: 100%;
+  }
+  .info {
+    width: 90%;
+    height: 100%;
+    padding: 1vw;
+    justify-content: center;
+    align-items:center;;
+  }
+  .standOutHeader,.standOutParagraph{
+    text-align: center;
+  }
+  .standOutHeader{
+    font-size: 34px;
+    word-wrap: break-word;
+  }
+  .standOutParagraph{
+    font-size: 20px
+  }
+  .standOutLearnMoreLink{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 80px;
+    margin-top: 50px
   }
 }

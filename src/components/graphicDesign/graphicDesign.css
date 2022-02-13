@@ -2,12 +2,6 @@
   width: 720px;
   height: 600px;
 }
-@media only screen and (max-width: 1440px) {
-  .graphicDesignContainer {
-    width: 50%;
-    height: 100%;
-  }
-}
 
 .graphicDesignContent {
   display: flex;
@@ -39,4 +33,22 @@
   margin-bottom: 28px;
   text-align: center;
   color: var(--graphicDesignText);
+}
+
+@media only screen and (max-width: 1440px) {
+  .graphicDesignContainer {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .graphicDesignContainer {
+    width: 100%;
+    height: 100%;
+  }
+  .graphicDesignInfo{
+    width:85%;
+    height:20%;
+  }
 }

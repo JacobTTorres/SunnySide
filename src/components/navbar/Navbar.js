@@ -1,5 +1,7 @@
 import "./navbar.css";
 
+import Hamburger from "../../images/icon-hamburger.svg";
+
 export default function Navbar() {
   return (
     <section className="navbarContainer">
@@ -22,6 +24,11 @@ export default function Navbar() {
               <a className="contactLink">CONTACT</a>
             </li>
           </ul>
+        </div>
+        <div className="menuButton">
+          <button className="button">
+            <img src={Hamburger} alt="Menu" className="hamburgerIcon" />
+          </button>
         </div>
       </div>
     </section>

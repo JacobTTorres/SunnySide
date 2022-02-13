@@ -3,14 +3,6 @@
   height: 600px;
 }
 
-@media only screen and (max-width: 1440px) {
-  .photographyContainer {
-    width: 50%;
-    height: 100%;
-  }
-}
-
-
 .photographyContent {
   display: flex;
   justify-content: flex-end;
@@ -41,4 +33,22 @@
   margin-bottom: 28px;
   text-align: center;
   color: var(--photographyText);
+}
+
+@media only screen and (max-width: 1440px) {
+  .photographyContainer {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .photographyContainer {
+    width: 100%;
+    height: 100%;
+  }
+  .photographyInfo{
+    width:85%;
+    height:20%;
+  }
 }

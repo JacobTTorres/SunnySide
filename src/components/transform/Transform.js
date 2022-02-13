@@ -1,6 +1,7 @@
 import "./transform.css";
 
 import TransformPhoto from "../../images/desktop/image-transform.jpg";
+import TransformPhotoMobile from "../../images/mobile/image-transform.jpg";
 
 export default function Transform() {
   return (
@@ -25,6 +26,11 @@ export default function Transform() {
             src={TransformPhoto}
             alt="backgroundTransform"
             className="transformBackgroundImg"
+          />
+          <img
+            src={TransformPhotoMobile}
+            alt="backgroundTransform"
+            className="transformBackgroundImgMobile"
           />
         </div>
       </div>

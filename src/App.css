@@ -15,7 +15,6 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-
 }
 
 .mainContent {
@@ -27,11 +26,21 @@
   width: 100%;
 }
 
-
 .designPhotography {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   width: 100%;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .navAndHeaderContainer {
+    background-image: url("./images/mobile/image-header.jpg");
+    background-size: 100% 100%;
+  }
+  .designPhotography{
+    flex-direction: column;
+  }
 }

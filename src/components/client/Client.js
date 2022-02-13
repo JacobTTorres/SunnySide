@@ -16,8 +16,10 @@ export default function Client() {
               We put our trust in Sunnyside and they delived, making sure our
               needs were met and deadlines were always hit.
             </p>
-            <h3 className="clientName">Emily R.</h3>
-            <p className="clientOccupation">Marketing Director</p>
+            <div className="clientInfo">
+              <h3 className="clientName">Emily R.</h3>
+              <p className="clientOccupation">Marketing Director</p>
+            </div>
           </div>
           <div className="client">
             <img src={ThomasImg} alt="Thomas" className="clientPhoto" />
@@ -25,8 +27,10 @@ export default function Client() {
               Sunnyside's enthusiasm coupled with their keen interest in our
               brand's success made it a satisfying and enjoyable experience.
             </p>
-            <h3 className="clientName">Thomas S.</h3>
-            <p className="clientOccupation">Chief Operating Officer</p>
+            <div className="clientInfo">
+              <h3 className="clientName">Thomas S.</h3>
+              <p className="clientOccupation">Chief Operating Officer</p>
+            </div>
           </div>
           <div className="client">
             <img src={JennieImg} alt="Jennie" className="clientPhoto" />
@@ -34,8 +38,10 @@ export default function Client() {
               Increadible end result! Our sales increased over 400% when we
               worked with Sunnyside. Highly recommended!
             </p>
-            <h3 className="clientName">Jennie F.</h3>
-            <p className="clientOccupation">Business Owner</p>
+            <div className="clientInfo">
+              <h3 className="clientName">Jennie F.</h3>
+              <p className="clientOccupation">Business Owner</p>
+            </div>
           </div>
         </div>
       </div>

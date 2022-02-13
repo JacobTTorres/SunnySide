@@ -1,6 +1,7 @@
 import "./standOut.css";
 
 import StandoutPhoto from "../../images/desktop/image-stand-out.jpg";
+import StandoutPhotoMobile from "../../images/mobile/image-stand-out.jpg";
 
 export default function StandOut() {
   return (
@@ -11,6 +12,11 @@ export default function StandOut() {
             src={StandoutPhoto}
             alt="backgroundStandout"
             className="standOutBackgroundImg"
+          />{" "}
+          <img
+            src={StandoutPhotoMobile}
+            alt="backgroundStandout"
+            className="standOutBackgroundImgMobile"
           />
         </div>
         <div className="standOutInfo">
