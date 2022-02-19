@@ -16,16 +16,16 @@ export default function Navbar() {
       <div className="navLinks">
         <ul className="pageLinks">
           <li className="About">
-            <a className="links">About</a>
+            <p className="links">About</p>
           </li>
           <li className="Services">
-            <a className="links">Services</a>
+            <p className="links">Services</p>
           </li>
           <li className="Projects">
-            <a className="links">Projects</a>
+            <p className="links">Projects</p>
           </li>
           <li className="Contact">
-            <a className="contactLink">CONTACT</a>
+            <p className="contactLink">CONTACT</p>
           </li>
         </ul>
       </div>
