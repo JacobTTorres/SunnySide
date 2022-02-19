@@ -17,7 +17,7 @@ export default function Transform() {
             </p>
             <div className="transformLearnMoreLink">
               <div className="transformLinkBackdrop"></div>
-              <a className="transformLearnMore">LEARN MORE</a>
+              <p className="transformLearnMore">LEARN MORE</p>
             </div>
           </div>
         </div>

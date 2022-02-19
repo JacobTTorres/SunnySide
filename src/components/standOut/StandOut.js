@@ -29,7 +29,7 @@ export default function StandOut() {
             </p>
             <div className="standOutLearnMoreLink">
               <div className="standOutLinkBackdrop"></div>
-              <a className="standOutLearnMore">LEARN MORE</a>
+              <p className="standOutLearnMore">LEARN MORE</p>
             </div>
           </div>
         </div>
