@@ -11,15 +11,9 @@ export default function Footer() {
       <div className="footerContent">
         <h1 className="footerHeader">sunnyside</h1>
         <div className="footerLinksContainer">
-          <a href="" className="footerLinks">
-            About
-          </a>
-          <a href="" className="footerLinks">
-            Services
-          </a>
-          <a href="" className="footerLinks">
-            Projects
-          </a>
+          <p className="footerLinks">About</p>
+          <p className="footerLinks">Services</p>
+          <p className="footerLinks">Projects</p>
         </div>
         <div className="footerMediaLinks">
           <img src={Facebook} alt="Facebook" className="mediaLinks" />
