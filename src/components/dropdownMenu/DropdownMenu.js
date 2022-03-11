@@ -2,6 +2,7 @@ import "./dropdownMenu.css";
 
 export default function DropdownMenu(props) {
   return (props.trigger) ? (
+    <div className="dropdownContainer" >
     <div className="dropdownContent">
       <div className="dropdownLinks">
         <p className="dropdownlink">About</p>
@@ -12,6 +13,7 @@ export default function DropdownMenu(props) {
         </div>
       </div>
       <div className="closeButton" onClick={() => props.setTrigger(false)}>x</div>
+      </div>      
       {props.children}
     </div>
   ) :
